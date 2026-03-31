@@ -1,0 +1,52 @@
+body {
+    background-color: #ddd;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.cabecalho {
+    background-image: url(/imagem/banner3-receitas.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.centro {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); /* 3 colunas flexíveis, cada uma com largura mínima de 280px e máxima de 1fr */
+    justify-content: space-around;
+    gap: 30px;
+    padding: 40px 10px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card {
+    background-color: rgb(103, 214, 179);
+    padding: 20px;
+    border-radius: 8px; 
+    box-shadow: 0 4px 0px rgba(0,0,0,0.1); 
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+.card:hover {
+    transform: translateY(-10px); /* Eleva a carta ao passar o mouse */
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2); /* Aumenta a sombra para dar mais destaque */
+}
+.card h1 {
+    margin-top: 0;
+}
+.card ul {
+    padding-left: 20px;
+}
+.card img {
+    width: 180px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px; 
+}

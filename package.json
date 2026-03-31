@@ -1,0 +1,24 @@
+{
+  "name": "devops-receitas",
+  "version": "1.0.0",
+  "description": "Site feito durante a aula de devops, testando git!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/modulenotfound-iago/devops-receitas.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/modulenotfound-iago/devops-receitas/issues"
+  },
+  "homepage": "https://github.com/modulenotfound-iago/devops-receitas#readme",
+  "devDependencies": {
+    "typescript": "^6.0.2"
+  }
+}
